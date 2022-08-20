@@ -2,8 +2,8 @@
 
         - User management system made in HTML,CSS,Javascript,NodeJS,ExpressJS and MongoDB framework.It is able to create,edit,delete and update.
 
+<img width="992" alt="image" src="https://user-images.githubusercontent.com/43902822/185749053-a84d5c96-f923-4652-ae40-446bc2033f38.png">
 
-![image](https://user-images.githubusercontent.com/43902822/185748849-b4798cb4-f1f1-4339-865a-b0c3be655a38.png)
 
 ### Description
 
