@@ -20,11 +20,11 @@
 ### Endpoints and Controllers
  
 | endpoint name| purpose |aciton type| controller|
-|`api/createuser`| create  |  User | POST | CreatePayment |
-|`api/deleteuser`| delete | User | DELETE | deletePayment |
-|`api/updateuser`| modify |User | PATCH | updatePayment |
-|`api/getuser`| get all User | GET | getPayments |
-|`api/getuser/:id`| get one payment | GET | getPayment 
+|`api/createuser`| create  |  User | POST | createuser |
+|`api/deleteuser`| delete | User | DELETE | deleteuser |
+|`api/updateuser`| modify |User | PATCH | updateusesr |
+|`api/getuser`| get all User | GET | getusers |
+|`api/getuser/:id`| get one payment | GET | getuser 
 
 
 ### Validation
