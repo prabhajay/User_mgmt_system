@@ -12,14 +12,14 @@ const bodyparser=require("body-parser");
 
 const path=require('path');
 
-const connect= require('./server/database/index')
+const connectDB= require('./server/database/index')
 
 //dotenv.config({path:'config.env'})
 
 //log request
 app.use(morgan('tiny'))
 
-connect();
+connectDB();
 app.use(bodyparser.urlencoded({extended:true}))
 
 //set view engine

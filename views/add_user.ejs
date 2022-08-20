@@ -1,21 +1,26 @@
-<%-include("include/_header")%>
+<%- include('include/_header') %>
+<!-- /include header -->
 
-<main id="site-main">
+  <!-- Main Site -->
+  <main id="site-main">
     <div class="container">
-        <div class="box-nav d-flex-justify-between">
-            <div class="filter">
-                <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                  </svg> All Users</a>
-                </div>
+        <div class="box-nav d-flex justify-between">
+           <div class="filter">
+               <a href="/"><i class="fas fa-angle-double-left"></i> All Users</a>
+           </div>
         </div>
         <div class="form-title text-center">
             <h2 class="text-dark">New User</h2>
-                <span>Use the below form to create a new account</span>
+            <span class="text-light">Use the below form to create a new account</span>
         </div>
-      <%-include("include/_form")%>
+
+        <!-- add user form -->
+        <%- include('include/_form') %>
+       
     </div>
 </main>
+<!-- /Main Site -->
 
-<%-include("include/_footer")%>
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
