@@ -9,10 +9,11 @@ route.get('/add_user',services.add_user)
 
 route.get('/update_user',services.update_user)
 
-route.post('/api/users',controller.create);
-route.get('/api/users',controller.find);
-route.patch('/api/users/:id',controller.update);
-route.delete('/api/users:/id',controller.delete);
+route.post('/api/createuser',controller.create);
+route.get('/api/getuser',controller.find);
+route.get('/api/getusers',controller.find);
+route.patch('/api/updateuser/:id',controller.update);
+route.delete('/api/deleteuser:/id',controller.delete);
 
 
 
