@@ -20,16 +20,16 @@
 ### Endpoints and Controllers
  
 | endpoint name| purpose |aciton type| controller|
-|`api/createuser`| create  |  User | POST | createuser |
-|`api/deleteuser`| delete | User | DELETE | deleteuser |
-|`api/updateuser`| modify |User | PATCH | updateusesr |
-|`api/getuser`| get all User | GET | getusers |
-|`api/getuser/:id`| get one payment | GET | getuser 
+|`api/users`| create  |  User | POST | createuser |
+|`api/users`| delete | User | DELETE | deleteuser |
+|`api/users`| modify |User | PATCH | updateusesr |
+|`api/users`| get all User | GET | getusers |
+|`api/users/:id`| get one payment | GET | getuser 
 
 
 ### Validation
 
-- One per endpoint using joi and/or within the model
+
 
 
 ### Data Models

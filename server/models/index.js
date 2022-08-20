@@ -3,12 +3,16 @@ const mongoose=require('mongoose');
 var schema=new mongoose.Schema({
     name:{
         type:String,
-        required:true
+        required:true,
+        min:5,
+        max:128
     },
     email:{
         type:String,
         required:true,
-        unique:true
+        unique:true,
+        min:5,
+        max:128
     },
     gender:String,
     status:String
