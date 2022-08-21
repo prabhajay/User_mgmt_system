@@ -62,7 +62,7 @@
 
         Method: GET     http://localhost:3000/api/users?id=63004277251b45f20da541fe
 
-<img width="750" alt="api_user" src="">
+<img width="750" alt="specific_user" src="https://user-images.githubusercontent.com/43902822/185804408-7baf70dc-99dc-4bfe-9405-2057d9dd83b7.png">
 
 
 ### Data Models
