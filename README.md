@@ -42,6 +42,9 @@
 
 <img width="750" alt="api_put" src="https://user-images.githubusercontent.com/43902822/185796211-df8c4bee-bbdc-46ed-8eb1-21b0f48016bf.png">
 
+<img width="750" alt="api_put_update" src="https://user-images.githubusercontent.com/43902822/185796415-5aa019e4-f560-4fbb-9d82-59b357580cee.png">
+
+
 |`api/users`| get all Users | GET | getusers |
 
 <img width="750" alt="api_user" src="https://user-images.githubusercontent.com/43902822/185796225-ba703696-3e7e-45d8-9160-92b61a7557f2.png">
