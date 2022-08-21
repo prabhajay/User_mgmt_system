@@ -4,7 +4,7 @@
         - It is able to create,edit,delete and update.
         - I created 4 fields of user details like name , mail , gender and status. Mail field is unique. 
 
-<img width="992" alt="image" src="https://user-images.githubusercontent.com/43902822/185749053-a84d5c96-f923-4652-ae40-446bc2033f38.png">
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/43902822/185749053-a84d5c96-f923-4652-ae40-446bc2033f38.png">
 
 
 ### Description
@@ -16,7 +16,7 @@
 > note:update `package.json` if you are using other file name as entry point
 - install packages
     - review `package.json` for dependencies
-    <img width="563" alt="dependencies" src="https://user-images.githubusercontent.com/43902822/185772750-de0044ef-07dd-429d-8e53-a729eb463290.png">
+    <img width="750" alt="dependencies" src="https://user-images.githubusercontent.com/43902822/185772750-de0044ef-07dd-429d-8e53-a729eb463290.png">
 
     
 - create `.env`for environment variables
@@ -84,11 +84,14 @@
 
         http://localhost:3000/
         
-<img width="1057" alt="All_user" src="https://user-images.githubusercontent.com/43902822/185772820-78ee921a-dcad-4697-b7c5-e087945ccddc.png">
+<img width="750" alt="All_user" src="https://user-images.githubusercontent.com/43902822/185772820-78ee921a-dcad-4697-b7c5-e087945ccddc.png">
+<<<<<<< HEAD
+=======
 
 
 
 ###Conclusion
 
         - I had create,update and delete the user details. Future i will be adding LOGIN and Register pages.
+
         
