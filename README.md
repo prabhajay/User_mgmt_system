@@ -42,7 +42,7 @@
 <img width="750" alt="api_delete" src="https://user-images.githubusercontent.com/43902822/185796176-413440ab-da0c-4b43-a32a-cacf4d08d544.png">
 
 
-|`api/users`| modify |User | PUT | updateusesr |
+|`api/users`| modify |User | PUT | updateuser |
 
         Method:PUT       http:localhost:3000/api/usesrs/63023ae39409d5855aB69e9
 
@@ -56,15 +56,6 @@
         Method: GET    http:localhost:3000/api/users
 
 <img width="750" alt="api_user" src="https://user-images.githubusercontent.com/43902822/185796225-ba703696-3e7e-45d8-9160-92b61a7557f2.png">
-
-|`api/users/:id`| get one user | GET | getuser 
-
-
-
-
-### Validation
-
-
 
 
 ### Data Models
