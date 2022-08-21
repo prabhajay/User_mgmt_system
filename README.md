@@ -30,15 +30,21 @@
 
 |`api/users`| create  |  User | POST | createuser |
 
+        Method:POST       http://localhost:3000/api/users
+
 <img width="750" alt="api_post" src="https://user-images.githubusercontent.com/43902822/185796152-00a67a08-f4fe-427e-baf2-e4ec46710eb3.png">
 
 
 |`api/users`| delete | User | DELETE | deleteuser |
 
+        Method:Delete      http://localhost:3000/api/users/63023ae39409d58655aB69e9
+
 <img width="750" alt="api_delete" src="https://user-images.githubusercontent.com/43902822/185796176-413440ab-da0c-4b43-a32a-cacf4d08d544.png">
 
 
 |`api/users`| modify |User | PUT | updateusesr |
+
+        Method:PUT       http:localhost:3000/api/usesrs/63023ae39409d5855aB69e9
 
 <img width="750" alt="api_put" src="https://user-images.githubusercontent.com/43902822/185796211-df8c4bee-bbdc-46ed-8eb1-21b0f48016bf.png">
 
@@ -46,6 +52,8 @@
 
 
 |`api/users`| get all Users | GET | getusers |
+
+        Method: GET    http:localhost:3000/api/users
 
 <img width="750" alt="api_user" src="https://user-images.githubusercontent.com/43902822/185796225-ba703696-3e7e-45d8-9160-92b61a7557f2.png">
 
