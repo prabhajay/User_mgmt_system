@@ -62,21 +62,29 @@
 ### Data Models
 
 | model name | usage
-| User | User details collection |
+| User | User details collection |add-user
 
-http://localhost:3000/add-user
+        http://localhost:3000/add-user
+
 <img width="750" alt="add_user" src="https://user-images.githubusercontent.com/43902822/185772783-7c6abcab-bc76-4fb5-ab71-bb91476db32f.png">
 
+| User | User details collection |delete-user
+
+        http://localhost:3000/
 
 <img width="750" alt="delete_user" src="https://user-images.githubusercontent.com/43902822/185772804-f8d47eea-b4bb-491b-91a6-5b6b10c2dc16.png">
 
-http://localhost:3000/update-user?id=63004189251b45f20da541fa
+| User | User details collection |update-user
+
+        http://localhost:3000/update-user?id=63004189251b45f20da541fa
 
 <img width="750" alt="update_success" src="https://user-images.githubusercontent.com/43902822/185772813-fd547880-ce92-4f96-95b4-2de6030bd8d4.png">
 
-http://localhost:3000/
-<img width="1057" alt="All_user" src="https://user-images.githubusercontent.com/43902822/185772820-78ee921a-dcad-4697-b7c5-e087945ccddc.png">
+| User | User details collection |get-user
 
+        http://localhost:3000/
+        
+<img width="1057" alt="All_user" src="https://user-images.githubusercontent.com/43902822/185772820-78ee921a-dcad-4697-b7c5-e087945ccddc.png">
 
 
 
