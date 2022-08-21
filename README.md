@@ -87,5 +87,11 @@
 
 
 
+###Conclusion
+
+        - I had create,update and delete the user details. Future i will be adding LOGIN and Register pages.
+        
+
+
 
 
