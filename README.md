@@ -58,6 +58,12 @@
 
 <img width="750" alt="api_user" src="https://user-images.githubusercontent.com/43902822/185796225-ba703696-3e7e-45d8-9160-92b61a7557f2.png">
 
+|`api/users` | get specific user | GET | getuser
+
+        Method: GET     http://localhost:3000/api/users?id=63004277251b45f20da541fe
+
+<img width="750" alt="api_user" src="">
+
 
 ### Data Models
 
