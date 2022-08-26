@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
 
+
 :root{
     --dark: #2b2d42;
     --light: #adb5bd;
@@ -48,6 +49,7 @@ a {
 
 .text-dark{
     color: var(--dark);
+
 }
 
 .inline{
@@ -69,6 +71,11 @@ a {
     background-color: #06d6a0;
     padding: 1em 0;
     width: 100%;
+
+}
+.card-footer{
+    background-color:#2b2d42;
+    color:#adb5bd;
 }
 
 #site-main{
@@ -144,6 +151,7 @@ table{
 
 .form-title > h2{
     padding: .5em 0;
+
 }
 
 .new_user{
@@ -241,4 +249,8 @@ table{
 #add_user .form-group .btn:hover{
     background-color: var(--dark);
     color: var(--border);
+}
+
+.header-img{
+background-color: #06d6a0;
 }
